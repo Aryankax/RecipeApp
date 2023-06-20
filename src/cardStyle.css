@@ -1,0 +1,125 @@
+
+.fullPage{
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #191825;
+}
+
+.headerStyle{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  background-color: #E384FF;
+  border-radius: 15px;
+}
+
+.headerStyle > *{
+  flex-basis: 2rem;
+}
+
+.headerStyle h1{
+  font-size: 70px;
+  align-self: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.headerStyle p{
+  font-size: 20px;
+  align-self: center;
+  font-family:'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+.searchBar{
+  position: absolute;
+  left: 750px;
+  top: 550px;
+  width: 10%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.submitButton{
+  position: absolute;
+  left: 950px;
+  top: 545px;
+  background-color: #FFA3FD;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+  background-color: #54B435;
+  color: white;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 50px) and (max-width: 1500px) {
+  .searchBar{
+    position: absolute;
+    left: 300px;
+    top: 550px;
+    width: 125px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .submitButton{
+    position: absolute;
+    left: 450px;
+    top: 545px;
+    background-color: #FFA3FD;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+}
+
+
+.recipeStyle{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px rgb(3, 236, 212);
+  margin: 200px;
+  background: #865DFF;
+}
+
+.recipeStyle > * {
+  flex-basis: 3rem;
+}
+
+.recipeStyle h1{
+  font-size: 50px;
+  color: #191825;
+}
+
+.recipeStyle ul{
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.recipeStyle p{
+  font-size: 20px;
+  color: whitesmoke;
+  align-self: center;
+}
+
+.recipeStyle img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+/* #060047 */
