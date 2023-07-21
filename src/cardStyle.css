@@ -67,7 +67,7 @@ button:hover{
   font-family: 'Times New Roman', Times, serif;
 }
 
-@media (min-width: 50px) and (max-width: 1500px) {
+/* @media (min-width: 50px) and (max-width: 1500px) {
   .searchBar{
     position: absolute;
     left: 300px;
@@ -88,7 +88,7 @@ button:hover{
     border-radius: 15px;
   }
 
-}
+} */
 
 .recipeStyle{
   display: flex;
