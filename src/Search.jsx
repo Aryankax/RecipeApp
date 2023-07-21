@@ -9,7 +9,31 @@ function Search() {
 
     const [inputText, setInputText] = useState("");
 
-    const [query, setQuery] = useState("Croissant");
+    const [query, setQuery] = useState("");
+
+    // const SearchFieldText = useContext(searchText);
+
+    // const [recipe, setRecipes] = useState([]);
+
+    // useEffect(() => {
+
+        // async function getData() {
+
+        //     console.log(SearchFieldText);
+
+        //     if(SearchFieldText!=""){
+        //         const res = await axios.get(`https://api.edamam.com/search?&q=${SearchFieldText}&app_id=49ca418f&app_key=94fdb91aa353e73979b10c1877feb7f1`);
+
+        //         const recipeData = res.data.hits;
+        
+        //         setRecipes(recipeData)
+        //     } 
+            
+        // }
+        
+
+        // getData();
+    // }, [SearchFieldText])
 
 
     function handleChange(event) {

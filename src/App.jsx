@@ -28,15 +28,13 @@ function App() {
 
             console.log(SearchFieldText);
 
-            const res = await axios.get(`https://api.edamam.com/search?&q=${SearchFieldText}&app_id=49ca418f&app_key=94fdb91aa353e73979b10c1877feb7f1`);
+            if(SearchFieldText!=""){
+                const res = await axios.get(`https://api.edamam.com/search?&q=${SearchFieldText}&app_id=49ca418f&app_key=94fdb91aa353e73979b10c1877feb7f1`);
 
-            // console.log(res);
-
-            const recipeData = res.data.hits;
-
-            // console.log(recipeData);
-
-            setRecipes(recipeData)
+                const recipeData = res.data.hits;
+        
+                setRecipes(recipeData)
+            } 
             
         }
         

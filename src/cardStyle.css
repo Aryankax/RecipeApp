@@ -1,15 +1,20 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
 
 .fullPage{
   padding: 5px;
-  border-radius: 20px;
-  background-color: #191825;
+  /* border-radius: 20px; */
+  background-color: #ffb347;
 }
 
 .headerStyle{
   display: flex;
   flex-direction: column;
   margin: 50px;
-  background-color: #E384FF;
+  background-color: #d25406;
   border-radius: 15px;
 }
 
@@ -19,12 +24,14 @@
 
 .headerStyle h1{
   font-size: 70px;
+  color: #ffffff;
   align-self: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .headerStyle p{
   font-size: 20px;
+  color: #ffffff;
   align-self: center;
   font-family:'Times New Roman', Times, serif;
   padding: 20px;
@@ -33,8 +40,8 @@
 .searchBar{
   position: absolute;
   left: 750px;
-  top: 550px;
-  width: 10%;
+  top: 350px;
+  width: 15%;
   padding: 10px;
   border: none;
   border-radius: 20px;
@@ -42,18 +49,19 @@
 
 .submitButton{
   position: absolute;
-  left: 950px;
-  top: 545px;
-  background-color: #FFA3FD;
-  width: 100px;
+  left: 1050px;
+  top: 345px;
+  background-color: #f3c52e;
+  width: 200px;
   height: 40px;
   border-radius: 20px;
+  border-color: #800101;
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
 }
 
 button:hover{
-  background-color: #54B435;
+  background-color: #ff8800;
   color: white;
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
@@ -63,7 +71,7 @@ button:hover{
   .searchBar{
     position: absolute;
     left: 300px;
-    top: 550px;
+    top: 350px;
     width: 125px;
     padding: 10px;
     border: none;
@@ -73,15 +81,14 @@ button:hover{
   .submitButton{
     position: absolute;
     left: 450px;
-    top: 545px;
-    background-color: #FFA3FD;
+    top: 345px;
+    background-color: #e6c232;
     width: 100px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 15px;
   }
 
 }
-
 
 .recipeStyle{
   display: flex;
@@ -90,9 +97,9 @@ button:hover{
   flex-wrap: nowrap;
   flex-direction: column;
   border-radius: 20px;
-  box-shadow: 0px 5px 20px rgb(3, 236, 212);
+  box-shadow: 0px 5px 20px rgb(24, 3, 50);
   margin: 200px;
-  background: #865DFF;
+  background: #f5842e;
 }
 
 .recipeStyle > * {
@@ -110,8 +117,9 @@ button:hover{
 }
 
 .recipeStyle p{
-  font-size: 20px;
-  color: whitesmoke;
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(228, 223, 235);
   align-self: center;
 }
 
